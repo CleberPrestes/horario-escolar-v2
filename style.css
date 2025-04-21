@@ -1,0 +1,126 @@
+/* style.css (atualizado com tons de azul) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #e3f2fd; /* Azul bem claro como fundo */
+}
+
+h1 {
+    text-align: center;
+    color: #1976d2; /* Azul mais escuro para o título */
+    margin-bottom: 30px;
+}
+
+#salvar, #carregar, #exportar {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #2196f3; /* Azul principal */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#salvar:hover, #carregar:hover, #exportar:hover {
+    background-color: #1976d2; /* Azul mais escuro no hover */
+}
+
+#agenda-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    border: 1px solid #bbdefb; /* Borda azul clara */
+}
+
+.section-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #1565c0; /* Azul ainda mais escuro para os títulos de seção */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #bbdefb; /* Borda azul clara */
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #bbdefb; /* Bordas azuis claras nas células */
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+    width: 70px; /* Ajustei um pouco a largura */
+    font-weight: bold;
+    font-size: 14px;
+    color: #333; /* Cor do texto padrão */
+}
+
+th {
+    background-color: #90caf9; /* Azul mais claro para o cabeçalho */
+    color: white;
+}
+
+.horario {
+    background-color: #e1f5fe; /* Azul bem claro para a coluna de horários */
+    color: #1976d2; /* Azul mais escuro para o texto dos horários */
+    cursor: pointer; /* Indica que é clicável para editar */
+}
+
+.editavel input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #2196f3; /* Borda azul ao editar */
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 4px;
+    background-color: #fff; /* Fundo branco ao editar */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #bbdefb; /* Borda azul clara nos inputs */
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 4px;
+    background-color: #f8faff; /* Fundo levemente azulado para os inputs */
+}
+
+#color-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #90caf9; /* Borda azul clara no menu de cores */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    flex-wrap: wrap;
+    gap: 8px; /* Aumentei um pouco o espaçamento */
+}
+
+.color-option {
+    width: 22px; /* Ajustei o tamanho */
+    height: 22px; /* Ajustei o tamanho */
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0; /* Adicionei uma borda sutil */
+}

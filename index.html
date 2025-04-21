@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda Semanal de Aulas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Agenda Semanal de Aulas</h1>
+    <button id="salvar">💾 Salvar Horário</button>
+    <button id="carregar">📂 Carregar Horário</button>
+    <button id="exportar">📷 Exportar como JPEG</button>
+
+    <div id="agenda-container">
+        <div class="section-title">Período da Manhã</div>
+        <table id="tabela-manha">
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="section-title">Período da Tarde</div>
+        <table id="tabela-tarde">
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+
+    <div id="color-menu">
+        <div class="color-option" style="background-color: #ffffff;"></div>
+        <div class="color-option" style="background-color: #f8b400;"></div>
+        <div class="color-option" style="background-color: #4caf50;"></div>
+        <div class="color-option" style="background-color: #2196f3;"></div>
+        <div class="color-option" style="background-color: #e91e63;"></div>
+        <div class="color-option" style="background-color: #9c27b0;"></div>
+        <div class="color-option" style="background-color: #ff5722;"></div>
+        <div class="color-option" style="background-color: #cfd8dc;"></div>
+        <div class="color-option" style="background-color: #00bcd4;"></div>
+        <div class="color-option" style="background-color: #607d8b;"></div>
+        <div class="color-option" style="background-color: #795548;"></div>
+        <div class="color-option" style="background-color: #3f51b5;"></div>
+        <div class="color-option" style="background-color: #8bc34a;"></div>
+        <div class="color-option" style="background-color: #ffc107;"></div>
+        <div class="color-option" style="background-color: #ff9800;"></div>
+        <div class="color-option" style="background-color: #ffeb3b;"></div>
+        <div class="color-option" style="background-color: #b2ff59;"></div>
+        <div class="color-option" style="background-color: #9052fc;"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
